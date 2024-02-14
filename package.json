@@ -1,0 +1,16 @@
+{
+  "name": "simple-api",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "version": "1.0.0",
+  "scripts": {
+    "start": "bun run server.ts",
+    "dev": "bun run server.ts --watch"
+  }
+}
